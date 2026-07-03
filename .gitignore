@@ -1,0 +1,6 @@
+
+movielensDBTproject/target/
+movielensDBTproject/dbt_packages/
+movielensDBTproject/logs/
+poetry.lock
+dbtproject_gitpat.txt

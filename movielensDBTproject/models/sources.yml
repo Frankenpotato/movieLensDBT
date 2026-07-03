@@ -1,0 +1,18 @@
+version : 2
+
+soruces:
+  - name : dbt_project
+    schema : dbt_staging_movie_data
+    tables:
+      - name : r_movies
+        identifier : raw_movies
+      - name : r_ratings
+        identifier : raw_ratings
+      - name : r_tags
+        identifier : raw_tags
+      - name : r_links
+        identifier : raw_links
+      - name : r_genome_scores
+        identifier : raw_genome_scores
+      - name : r_genome_tags
+        identifier : raw_genome_tags

@@ -1,3 +1,9 @@
+{{
+    config(
+        materialized = 'table'
+    )
+}}
+
 with raw_tags as(
     select * from dbt_project.raw_movie_data.raw_tags
 )

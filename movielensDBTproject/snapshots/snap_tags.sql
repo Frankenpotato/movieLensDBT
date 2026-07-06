@@ -15,6 +15,5 @@ select
     tag,
     cast(tag_timestamp as TIMESTAMP_NTZ) as tag_timestamp
 from {{ ref('src_tags') }}
-limit 100
 
 {%endsnapshot%}
